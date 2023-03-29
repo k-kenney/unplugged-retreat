@@ -87,35 +87,52 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-header,
+
+header, main,
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   flex-flow: row wrap;
+}
+
+header {
+  padding: 15px 0;
 }
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 60%;
+  padding: 15px 0;
+}
+
+.content-wrapper {
+  width: 60%;
+  padding: 15px 0;
 }
 
 header nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  padding: 15px 0;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  padding: 15px 0;
 }
 
 .hero-area {
@@ -128,7 +145,6 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -138,26 +154,51 @@ aside {
   align-items: center;
 }
 
-.features .features-items {
+.features h3 {
+  text-align: left;
+}
+
+/* .features h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
+} */
+
+.features .content-wrapper{
+  display: flex;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
+  width: 60%;
+  padding: 15px 0;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features article {
+  width: 60%;
+  padding: 15px 0;
 }
 
 .reviews {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 60%;
+  padding: 15px 0;
 }
 
 .mission {
   display: flex;
   justify-content: center;
-  align-items: center;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -166,14 +207,12 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
 .faq {
   display: flex;
   justify-content: center;
-  align-items: center;
   align-items: center;
   flex-flow: row wrap;
 }
@@ -182,8 +221,9 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   flex-flow: row wrap;
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .social-icons {
@@ -196,6 +236,18 @@ footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  margin: 50px 0;
+}
+
+.footer p {
+  margin: 0;
 }
 /* ==========================================================================
    Helper classes
