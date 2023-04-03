@@ -144,6 +144,7 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
 }
 
 footer .contact {
@@ -375,7 +376,7 @@ aside {
   }
 
   header nav ul {
-    display: none;
+    Justify-content: space-between;
   }
 
   .header-divider {
@@ -402,6 +403,7 @@ aside {
 
   .features article {
     display: flex;
+    flex-basis: 50%;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
@@ -410,8 +412,6 @@ aside {
 
   .features .features-item-description {
       width: 50%;
-      display: flex;
-      justify-content: space-between;
   }
 
   /* Reviews */
@@ -443,6 +443,43 @@ aside {
   footer .copyright {
       width: 100%;
   }
+
+  /* About page */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px
+  }
+
+  .mission-content p {
+    width: 45%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* FAQ page */
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+}
+
+.faq-content {
+    flex-basis: 45%;
+}
+
+.faq h2 {
+    width: 100%;
+}
 }
 
 @media only screen and (min-width: 1200px) {
